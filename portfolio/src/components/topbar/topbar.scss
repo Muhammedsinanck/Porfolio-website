@@ -1,0 +1,27 @@
+.topbar{
+    width: 100%;
+    height: 70px;
+    position : fixed;
+    background-color: rgb(2, 2, 53);
+    font-family: arial,Arial, Helvetica, sans-serif; 
+    z-index: 3;
+    .left{
+        flex: 50%;
+        display:flex;
+        justify-content: left;
+        align-items: center;
+        .links
+        {   
+            max-height: 70px;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 25px;
+                margin-right: 15px;
+            }
+        }
+    }
+    .rigth{ 
+        flex: 50%;
+    }
+}

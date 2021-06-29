@@ -1,0 +1,49 @@
+.skills
+{
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    .title{
+        margin-bottom: 40vw;
+        color: white;
+    }
+    .arrow{
+        height: 50px;
+        position: absolute;
+        cursor: pointer;
+        &.left{
+            left:100px;
+            transform: rotateY(180deg);
+        }
+        &.right{
+            right:100px;
+        }   
+    }
+    .slider{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        transition: all 1s ease-out;
+        .container{
+            width: 50vw;
+            height: 50vh;
+            margin-right: 25vw;
+            margin-left: 25vw;
+            border-radius: 5%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .item{
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}

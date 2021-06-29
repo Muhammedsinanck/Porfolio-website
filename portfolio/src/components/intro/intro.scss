@@ -1,0 +1,35 @@
+.intro{
+  //height:100vh;
+  display: flex;
+  .left{ 
+      flex: 0.5;
+      //background-color: white;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .crop {
+          box-shadow: 50px 50px 100px 20px black;
+          border-radius: 50%;
+          width: 500px;
+          height: 500px;
+          overflow: hidden;
+          img {
+              width: 1000px;
+              height: 1000px;
+              object-fit: cover;
+              margin-left: -250px;
+          }
+      }
+  }   
+  .right{
+      background-color: crimson;
+      color:black;
+      flex: 0.5;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+  }   
+}
